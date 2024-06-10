@@ -1,0 +1,9 @@
+body {
+  background-color: aqua;
+}
+
+p {
+  color: red;
+  font-weight: 400;
+  font-size: 20px;
+}

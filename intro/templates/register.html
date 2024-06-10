@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1> Welcome to Register Page</h1>
+
+        <p>Name: {{name}}, Address: {{address}}, Age: {{age}}</p>
+        {% if age == 23%}
+        <h3>His Age is {{age}}</h3>
+        {% else %}
+        <h3>Bye</h3>
+        {% endif %}
+
+        <h2>Fruits Name </h2>
+        <ul>
+            {% for x in fruits %}
+                <li>{{x}}</li>
+            {% endfor %}
+        </ul>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
