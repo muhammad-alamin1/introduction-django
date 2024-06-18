@@ -8,6 +8,7 @@ class DeepLearning(models.Model):
         ('FD', 'Food'),
     ]
     
+    
     _id = models.IntegerField
     algorithm = models.CharField(max_length=50)
     type = models.CharField(max_length=2, choices=CATEGORY_CHOICES)
